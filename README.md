@@ -3,6 +3,12 @@
 # SFG Brewery Gateway Service
 Spring Boot Microservice project.
 
+  - [Description](#description)
+  - [Docker images](#docker-images)
+  - [Implementation details](#implementation-details)
+    - [Properties](#properties)
+    - [Profiles](#profiles)
+
 ## Description
 The current project is part of the "Spring Boot Microservices with Spring Cloud" [Udemy course](https://www.udemy.com/course/spring-boot-microservices-with-spring-cloud-beginner-to-guru/). 
 
@@ -30,3 +36,6 @@ spring.application.name=sfg-brewery-gateway
 ```
 server.port=9090
 ```
+
+### Profiles
+Active profile: `local-discovery`.
